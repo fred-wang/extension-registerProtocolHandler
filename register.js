@@ -10,6 +10,6 @@ function register() {
 }
 
 window.addEventListener("DOMContentLoaded", function() {
-    register(); // no user gesture
     document.getElementsByTagName("button")[0].addEventListener("click", register); // user gesture
+    register(); // no user gesture
 });
